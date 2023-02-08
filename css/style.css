@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&amp;display=swap');
+html,body,h1,h2,h3,h4,h5,h6,p,aside,article,section,div,main,header,footer,form,input,button,img,figure,figcaption,a,span,ul,ol,li,dd,dt,dl,details,summary,audio,video,iframe,embed,object,hr,br{box-sizing:border-box}ul li{list-style: none;font-size: 20px}
+a{text-decoration: none}
+p{font-size: 18px;color: #393939}
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #3c3444;
+    line-height: 1.1
+}
+
+.ptb{padding: 30px 0}
+img{width:100%;margin: auto}
+.flx{display: flex}.alig{align-items: flex-start}.alig-cen{align-items: center} .jus{justify-content: space-between}.gp{gap:30px} .txt-cen{text-align: center}
+*{margin: 0;padding: 0}body{ font-family: 'Lato', sans-serif;line-height: 1.5} 
+.apart{max-width: 80%;margin: auto}
+.hedtop {
+    background: #5B6EAF;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;display: none}
+.hedtop p {
+    color: #fff;
+}
+.brand {
+    font-size: 22px;
+    
+}
+.hedbottom {
+    margin: 15px;
+    justify-content: center
+}
+.mark{color: #5B6EAF;}
+.wb-btn {
+    background: #5B6EAF;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.home-sec{background-image: url(../images/slider1.jpg);background-size: cover;background-repeat: no-repeat;    padding: 50px 0;}
+.home-sec-cn {
+    flex: 50%;
+}
+.home-sec-img{flex: 50%}.home-sec-cn h2 {
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: -2px;
+    font-weight: 800;
+    color: #3c3444;
+}
+.st-btn {
+    background: #5B6EAF;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 50px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.st-btn:hover{border: 2px solid #5B6EAF;background: #fff;color: #5B6EAF }
+ .bar {
+    height: 2px;
+    width: 165px;
+    background: #c4c4c4;
+    margin: 20px auto 30px;
+    position: relative;
+    border-radius: 50%;
+}
+.bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    background: #5B6EAF none repeat scroll 0 0;
+    top: -3px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+@-webkit-keyframes MOVE-BG {
+    from {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    to {
+        -webkit-transform: translateX(163px);
+        transform: translateX(163px);
+    }
+}
+
+@keyframes MOVE-BG {
+    from {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    to {
+        -webkit-transform: translateX(163px);
+        transform: translateX(163px);
+    }
+}
+
+.home-sec-img div p{
+	margin-top:20px;
+	font-size:18px;
+}
+
+.ben-img {
+    flex: 50%;
+}
+.ben-cn {
+    flex: 50%;
+}
+.ben-cn li {
+    margin-bottom: 15px;
+}
+.ben-cn img {
+    
+    
+    width: 20px;
+    height: 20px
+}
+.pr-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 30px;}
+.gau-img{flex: 30%}
+.gau-inf{flex: 70%}
+.ing-cn{flex:30%;    padding: 90px 50px;background: #d3d8e78c}
+.ing-list{flex:70%}
+.ing-list-box{flex: 23%;padding: 10px;}
+.ing-list-box img{width: 80px}
+.ft-links a{color: #393939}
+.mb{margin-bottom: 20px}
+.inner-con {
+    box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.Ques-inner p {
+    margin-bottom: 20px;
+}
+input[type=text], select, textarea {
+  width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px;  box-sizing: border-box; margin-top: 6px;margin-bottom: 16px; resize: vertical;
+}
+input[type=submit] { background-color: #04AA6D; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;}
+input[type=submit]:hover {background-color: #45a049;}
+@media screen and (max-width: 768px){.dr{flex-direction: column}.dpl{display: none}.home-sec-cn h2 {
+    font-size: 40px;}}
+@media screen and (min-width: 767px){.st-btn{width: 35%}.pr-box{width: 33.3%}.pr-btn{width: 40%;}}
